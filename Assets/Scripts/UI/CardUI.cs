@@ -20,6 +20,11 @@ public class CardUI : MonoBehaviour
     // sortear e mostrar a próxima carta.
     public System.Action OnContinuar;
 
+    // Evento que avisa "o jogador escolheu essa opção, aqui está o resultado".
+    // O CardManager vai se inscrever nesse evento pra repassar pro GameManager
+    // e somar o dinheiro no saldo total.
+    public System.Action<Outcome> OnEscolha;
+
     private CardData cartaAtual;
 
     void Start()
@@ -52,6 +57,8 @@ public class CardUI : MonoBehaviour
     void Escolher(bool contratou)
     {
         Outcome resultado = contratou ? cartaAtual.contratar : cartaAtual.naoContratar;
+
+        OnEscolha?.Invoke(resultado); // avisa quem estiver ouvindo (o CardManager)
 
         // Esconde estado pergunta
         btnContratar.gameObject.SetActive(false);
