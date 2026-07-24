@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6447b6f12b054cf438fa990fcf8714f7, type: 3}
-  m_Name: TesteCard2
+  m_Name: ArtistaAnsiosa
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   id: caerta_002
-  titulo: teste2
-  arteCarta: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  descricao: teste222
+  titulo: Artista Ansiosa
+  arteCarta: {fileID: 7350041905874568953, guid: bfca057ee5e4c664cb8cd8ef1f4b1f42, type: 3}
+  descricao: Artista Ansiosa
   contratar:
-    textoResultado: contratato
+    textoResultado: Deu certo
     deltaDinheiro: 22
     arteResultado: {fileID: 0}
   naoContratar:
     textoResultado: deu ruim
-    deltaDinheiro: -2222
+    deltaDinheiro: -30
     arteResultado: {fileID: 0}
