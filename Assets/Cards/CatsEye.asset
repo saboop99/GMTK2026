@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   id: carta_001
   titulo: MC Catseye
-  arteCarta: {fileID: -7442846639724526032, guid: e68c430477f30734da302be681e29179, type: 3}
+  arteCarta: {fileID: 1890049065152789701, guid: fa17fd7b644603a48beca64d2cecfbbf, type: 3}
   descricao: MC Catseye has become one of the hottest names in the music scene. One
     song on his upcoming album references the mother of one of the country's most
     notorious gangsters. Do you keep the song on the album?

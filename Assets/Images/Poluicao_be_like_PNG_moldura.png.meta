@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e68c430477f30734da302be681e29179
+guid: c3645a725579eaa4594f57de49b4636a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7442846639724526032
-    second: Mc_CatsEye_PNG_0
+      213: 3088667496719285184
+    second: Poluicao_be_like_PNG_moldura_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mc_CatsEye_PNG_0
+      name: Poluicao_be_like_PNG_moldura_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1500
-        height: 1647
+        width: 1501
+        height: 1648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 03682814a62b5b890800000000000000
-      internalID: -7442846639724526032
+      spriteID: 0cb7f3b49b62dda20800000000000000
+      internalID: 3088667496719285184
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mc_CatsEye_PNG_0: -7442846639724526032
+      Poluicao_be_like_PNG_moldura_0: 3088667496719285184
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

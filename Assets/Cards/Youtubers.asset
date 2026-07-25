@@ -14,24 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   id: carta_003
   titulo: YouTube Business Deal
-  arteCarta: {fileID: -4738230909173435629, guid: 39e6614c3966f4c4592ef2aa87fdfd1d, type: 3}
+  arteCarta: {fileID: -3678532167284416163, guid: f3aa488ca793f664cb860d1376d4d4e4, type: 3}
   descricao: Ronald and Brendan run an urban exploration channel, but the revenue
     isn't enough to make ends meet. A cigarette company wants to sponsor the channel.
     Do you agree to invest as well?
   contratar:
-    textoResultado: The duo signs a contract with the cigarette company and your
-      company. During every livestream, one of the hosts is required to appear smoking.
-      The partnership works for a while, until one day, during an exploration, they
-      enter a house with a gas leak. A cigarette butt causes an explosion that kills
-      them both, also destroying the reputation of both sponsoring companies.
-    deltaDinheiro: -250
+    textoResultado: The duo signs with the cigarette company and your business. One
+      host must smoke during every livestream. The partnership works for a while,
+      until a cigarette butt causes a gas explosion, killing them both and ruining
+      both companies' reputations.
+    deltaDinheiro: -2000
     arteResultado: {fileID: 0}
   naoContratar:
-    textoResultado: The duo signs a contract only with the cigarette company. During
-      every livestream, one of the hosts is required to appear smoking. The partnership
-      works for a while, until one day, during an exploration, they enter a house
-      with a gas leak. A cigarette butt causes an explosion that kills them both,
-      completely destroying the reputation of the sponsoring company. Since you chose
-      not to participate, your reputation remains intact.
+    textoResultado: The duo signs only with the cigarette company. One host must
+      smoke during every livestream. The partnership works for a while, until a cigarette
+      butt causes a gas explosion, killing them both and ruining the sponsor's reputation.
+      Since you didn't invest, your reputation remains intact.
     deltaDinheiro: 0
     arteResultado: {fileID: 0}

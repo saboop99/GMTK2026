@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bba7646d4c2a68441b0e3f36d027ad63
+guid: 82764b41bc546264da389c31463dea07
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8147978088825045153
-    second: cenario_0
+      213: 3308901315246633650
+    second: Artista_anciosa_PNG 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cenario_0
+      name: Artista_anciosa_PNG 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3840
-        height: 2160
+        width: 1501
+        height: 1648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f5fbae919119cee80800000000000000
-      internalID: -8147978088825045153
+      spriteID: 2b2391407349bed20800000000000000
+      internalID: 3308901315246633650
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cenario_0: -8147978088825045153
+      Artista_anciosa_PNG 1_0: 3308901315246633650
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

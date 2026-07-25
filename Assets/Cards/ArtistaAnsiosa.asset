@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6447b6f12b054cf438fa990fcf8714f7, type: 3}
   m_Name: ArtistaAnsiosa
   m_EditorClassIdentifier: Assembly-CSharp::CardData
-  id: caerta_002
+  id: carta_002
   titulo: DuckWiggie
-  arteCarta: {fileID: 7350041905874568953, guid: bfca057ee5e4c664cb8cd8ef1f4b1f42, type: 3}
+  arteCarta: {fileID: 3308901315246633650, guid: 82764b41bc546264da389c31463dea07, type: 3}
   descricao: DuckWiggie is an inexperienced artist who dreams of publishing her very
     first manga series. Do you want to invest in her career through a major publishing
     company?

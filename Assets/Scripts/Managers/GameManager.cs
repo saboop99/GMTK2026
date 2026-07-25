@@ -10,6 +10,14 @@ public class GameManager : MonoBehaviour
     public int dinheiroInicial = 1000;
     public int dinheiroAtual;
 
+    [Header("Telas")]
+    public GameObject painelCard;
+    public GameObject painelDerrota;
+    public GameObject painelVitória;
+
+    [Header("Áudio")]
+    public SoundManager soundManager;
+
     private bool jogoTerminou = false;
 
     void Start()
@@ -36,7 +44,11 @@ public class GameManager : MonoBehaviour
     {
         jogoTerminou = true;
         Debug.Log("VITÓRIA! Dinheiro chegou a " + dinheiroAtual + " (zero ou negativo).");
-        // Aqui depois entra a tela de vitória, se quiser.
+
+        painelCard.SetActive(false);
+        painelVitória.SetActive(true);
+        soundManager.TocarSomVitoria();
+        
     }
 
     // Chamado pelo CardManager quando o baralho acabar sem o jogador ter vencido.
@@ -46,6 +58,10 @@ public class GameManager : MonoBehaviour
 
         jogoTerminou = true;
         Debug.Log("Baralho acabou! Dinheiro final: " + dinheiroAtual);
+
+        painelCard.SetActive(false);
+        painelDerrota.SetActive(true);
+        soundManager.TocarSomDerrota();
         // Aqui depois entra uma tela de "fim de jogo sem vitória", se fizer sentido pro seu design.
     }
 

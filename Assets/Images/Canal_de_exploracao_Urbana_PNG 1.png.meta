@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 39e6614c3966f4c4592ef2aa87fdfd1d
+guid: f3aa488ca793f664cb860d1376d4d4e4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4738230909173435629
-    second: Canal_de_exploracao_Urbana_PNG_0
+      213: -3678532167284416163
+    second: Canal_de_exploracao_Urbana_PNG 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Canal_de_exploracao_Urbana_PNG_0
+      name: Canal_de_exploracao_Urbana_PNG 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1500
-        height: 1647
+        width: 1501
+        height: 1648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 313f0f2a71c6e3eb0800000000000000
-      internalID: -4738230909173435629
+      spriteID: d512a2acb7a33fcc0800000000000000
+      internalID: -3678532167284416163
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Canal_de_exploracao_Urbana_PNG_0: -4738230909173435629
+      Canal_de_exploracao_Urbana_PNG 1_0: -3678532167284416163
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
