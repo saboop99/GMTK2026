@@ -37,6 +37,7 @@ public class CardUI : MonoBehaviour
 
     void Start()
     {
+        //animator.SetTrigger(nomeTrigger);
         btnContratar.onClick.AddListener(() => Escolher(true));
         btnNaoContratar.onClick.AddListener(() => Escolher(false));
         btnContinuar.onClick.AddListener(() => StartCoroutine(ContinuarComAnimacao()));
