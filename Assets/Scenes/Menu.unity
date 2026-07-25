@@ -1650,8 +1650,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.71, y: -1031}
-  m_SizeDelta: {x: 805.03, y: 2571.36}
+  m_AnchoredPosition: {x: -0.71, y: 1414}
+  m_SizeDelta: {x: 805.03, y: 3241.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1822827861
 MonoBehaviour:
@@ -1675,13 +1675,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Unbusiness\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam:\n\nCristiano Ferreira\nKauam
     Silva Batista\nLaiza Reis (Vulpel)\nMurilo Ara\xFAjo Graciano\nRafael do Nascimento
-    Rofrigues\nVinicius\n\n\n\n\n\n\n\n\n\nGame design: Kauam e Rafael\nLevel Design:
-    Kauam e Rafael\n\nPrograming:\n\nFuncionamento do Menu: Kauam \nTransi\xE7\xE3o
+    Rofrigues\nVinicius\n\n\n\n\n\n\n\n\n\n\n\n\n\nGame design: Kauam e Rafael\nLevel
+    Design: Kauam, Rafael e Laiza\nDocumenta\xE7\xE3o: Kauam e Murilo\nEnredo: Kauam
+    e Rafael\n\n\n\n\n\nPrograming:\n\nFuncionamento do Menu: Kauam \nTransi\xE7\xE3o
     entre telas: Kauam\nCartas: Rafael\nTela de vit\xF3ria: Rafael\nTela de derrota:
-    Rafael\nDinheiro: Rafael\nAnima\xE7\xE3o das cartas: Rafael e Kauam\n\nIlustra\xE7\xE3o:\n\nDesenho
+    Rafael\nDinheiro: Rafael\nAnima\xE7\xE3o das cartas: Rafael e Kauam\n\n\n\n\n\nIlustra\xE7\xE3o:\n\nDesenho
     interior carta: Vinicius\nLayout da carta: Laiza\nCenario: Laiza\nPersonagem:
-    Laiza\n\xCDcones: Laiza\nLogo: Murilo\n\nSound:\n\nM\xFAsica menu: Murilo\nM\xFAsica
-    Gameplay: Cristiano\nEfeitos sonoros: Murilo\n\n\n\n"
+    Laiza\n\xCDcones: Laiza\nLogo: Murilo\n\n\n\n\n\nSound:\n\nM\xFAsica menu: Murilo\nM\xFAsica
+    Gameplay: Cristiano\nEfeitos sonoros: Murilo\n\n\n\n\n\n\n\n\n\n\nFIM\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
