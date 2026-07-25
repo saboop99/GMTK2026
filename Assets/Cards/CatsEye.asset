@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6447b6f12b054cf438fa990fcf8714f7, type: 3}
+  m_Name: CatsEye
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  id: carta_001
+  titulo: MC Catseye
+  arteCarta: {fileID: 1890049065152789701, guid: fa17fd7b644603a48beca64d2cecfbbf, type: 3}
+  descricao: MC Catseye has become one of the hottest names in the music scene. One
+    song on his upcoming album references the mother of one of the country's most
+    notorious gangsters. Do you keep the song on the album?
+  contratar:
+    textoResultado: Less than a week after the album's release, MC Catseye is killed
+      in a shooting. The song becomes a viral anti-crime anthem, increasing album
+      sales by 300%.
+    deltaDinheiro: 300
+    arteResultado: {fileID: 0}
+  naoContratar:
+    textoResultado: The song is removed from the album. Without it, none of the remaining
+      tracks gain traction, and MC Catseye becomes known as just another promising
+      artist who never made it.
+    deltaDinheiro: -50
+    arteResultado: {fileID: 0}

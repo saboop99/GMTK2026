@@ -20,6 +20,11 @@ public class CardUI : MonoBehaviour
     // sortear e mostrar a próxima carta.
     public System.Action OnContinuar;
 
+    // Evento que avisa "o jogador escolheu essa opção, aqui está o resultado".
+    // O CardManager vai se inscrever nesse evento pra repassar pro GameManager
+    // e somar o dinheiro no saldo total.
+    public System.Action<Outcome> OnEscolha;
+
     private CardData cartaAtual;
 
     void Start()
@@ -53,6 +58,8 @@ public class CardUI : MonoBehaviour
     {
         Outcome resultado = contratou ? cartaAtual.contratar : cartaAtual.naoContratar;
 
+        OnEscolha?.Invoke(resultado); // avisa quem estiver ouvindo (o CardManager)
+
         // Esconde estado pergunta
         btnContratar.gameObject.SetActive(false);
         btnNaoContratar.gameObject.SetActive(false);
@@ -60,9 +67,10 @@ public class CardUI : MonoBehaviour
         // Mostra estado resultado
         resultadoText.gameObject.SetActive(true);
         btnContinuar.gameObject.SetActive(true);
+        descricaoText.text = resultado.textoResultado;
 
         string sinal = resultado.deltaDinheiro >= 0 ? "+" : "";
-        resultadoText.text = resultado.textoResultado + "\n" + sinal + resultado.deltaDinheiro;
-        resultadoText.color = resultado.deltaDinheiro >= 0 ? Color.green : Color.red;
+        resultadoText.text = sinal + resultado.deltaDinheiro;
+        resultadoText.color = resultado.deltaDinheiro >= 0 ? Color.red : Color.green;
     }
 }

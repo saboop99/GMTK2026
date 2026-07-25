@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6447b6f12b054cf438fa990fcf8714f7, type: 3}
+  m_Name: Youtubers
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  id: carta_003
+  titulo: YouTube Business Deal
+  arteCarta: {fileID: -3678532167284416163, guid: f3aa488ca793f664cb860d1376d4d4e4, type: 3}
+  descricao: Ronald and Brendan run an urban exploration channel, but the revenue
+    isn't enough to make ends meet. A cigarette company wants to sponsor the channel.
+    Do you agree to invest as well?
+  contratar:
+    textoResultado: The duo signs with the cigarette company and your business. One
+      host must smoke during every livestream. The partnership works for a while,
+      until a cigarette butt causes a gas explosion, killing them both and ruining
+      both companies' reputations.
+    deltaDinheiro: -2000
+    arteResultado: {fileID: 0}
+  naoContratar:
+    textoResultado: The duo signs only with the cigarette company. One host must
+      smoke during every livestream. The partnership works for a while, until a cigarette
+      butt causes a gas explosion, killing them both and ruining the sponsor's reputation.
+      Since you didn't invest, your reputation remains intact.
+    deltaDinheiro: 0
+    arteResultado: {fileID: 0}

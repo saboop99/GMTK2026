@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6447b6f12b054cf438fa990fcf8714f7, type: 3}
+  m_Name: ArtistaAnsiosa
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  id: carta_002
+  titulo: DuckWiggie
+  arteCarta: {fileID: 3308901315246633650, guid: 82764b41bc546264da389c31463dea07, type: 3}
+  descricao: DuckWiggie is an inexperienced artist who dreams of publishing her very
+    first manga series. Do you want to invest in her career through a major publishing
+    company?
+  contratar:
+    textoResultado: Thanks to DuckWiggie's talent, the first volume of her manga
+      becomes a huge bestseller, greatly increasing the publisher's profits. However,
+      the company's constant pressure for new releases causes her to burn out, forcing
+      her to abandon her manga career and wasting your entire investment.
+    deltaDinheiro: -200
+    arteResultado: {fileID: 0}
+  naoContratar:
+    textoResultado: 'DuckWiggie starts small by publishing her work on a digital
+      manga platform. She gradually builds a loyal fanbase whose members pay monthly
+      subscriptions just to keep reading her series, generating a modest profit. '
+    deltaDinheiro: 30
+    arteResultado: {fileID: 0}
