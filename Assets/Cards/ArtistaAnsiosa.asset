@@ -13,14 +13,21 @@ MonoBehaviour:
   m_Name: ArtistaAnsiosa
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   id: caerta_002
-  titulo: Artista Ansiosa
+  titulo: DuckWiggie
   arteCarta: {fileID: 7350041905874568953, guid: bfca057ee5e4c664cb8cd8ef1f4b1f42, type: 3}
-  descricao: Artista Ansiosa
+  descricao: DuckWiggie is an inexperienced artist who dreams of publishing her very
+    first manga series. Do you want to invest in her career through a major publishing
+    company?
   contratar:
-    textoResultado: Deu certo
-    deltaDinheiro: 22
+    textoResultado: Thanks to DuckWiggie's talent, the first volume of her manga
+      becomes a huge bestseller, greatly increasing the publisher's profits. However,
+      the company's constant pressure for new releases causes her to burn out, forcing
+      her to abandon her manga career and wasting your entire investment.
+    deltaDinheiro: -200
     arteResultado: {fileID: 0}
   naoContratar:
-    textoResultado: deu ruim
-    deltaDinheiro: -30
+    textoResultado: 'DuckWiggie starts small by publishing her work on a digital
+      manga platform. She gradually builds a loyal fanbase whose members pay monthly
+      subscriptions just to keep reading her series, generating a modest profit. '
+    deltaDinheiro: 30
     arteResultado: {fileID: 0}

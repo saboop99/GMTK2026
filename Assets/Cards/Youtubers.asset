@@ -13,14 +13,25 @@ MonoBehaviour:
   m_Name: Youtubers
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   id: carta_003
-  titulo: youtuberrs
+  titulo: YouTube Business Deal
   arteCarta: {fileID: -4738230909173435629, guid: 39e6614c3966f4c4592ef2aa87fdfd1d, type: 3}
-  descricao: Youtubers
+  descricao: Ronald and Brendan run an urban exploration channel, but the revenue
+    isn't enough to make ends meet. A cigarette company wants to sponsor the channel.
+    Do you agree to invest as well?
   contratar:
-    textoResultado: sim
-    deltaDinheiro: 10
+    textoResultado: The duo signs a contract with the cigarette company and your
+      company. During every livestream, one of the hosts is required to appear smoking.
+      The partnership works for a while, until one day, during an exploration, they
+      enter a house with a gas leak. A cigarette butt causes an explosion that kills
+      them both, also destroying the reputation of both sponsoring companies.
+    deltaDinheiro: -250
     arteResultado: {fileID: 0}
   naoContratar:
-    textoResultado: nao
-    deltaDinheiro: -5
+    textoResultado: The duo signs a contract only with the cigarette company. During
+      every livestream, one of the hosts is required to appear smoking. The partnership
+      works for a while, until one day, during an exploration, they enter a house
+      with a gas leak. A cigarette butt causes an explosion that kills them both,
+      completely destroying the reputation of the sponsoring company. Since you chose
+      not to participate, your reputation remains intact.
+    deltaDinheiro: 0
     arteResultado: {fileID: 0}

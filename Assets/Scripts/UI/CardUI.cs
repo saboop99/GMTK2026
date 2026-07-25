@@ -67,9 +67,10 @@ public class CardUI : MonoBehaviour
         // Mostra estado resultado
         resultadoText.gameObject.SetActive(true);
         btnContinuar.gameObject.SetActive(true);
+        descricaoText.text = resultado.textoResultado;
 
         string sinal = resultado.deltaDinheiro >= 0 ? "+" : "";
-        resultadoText.text = resultado.textoResultado + "\n" + sinal + resultado.deltaDinheiro;
-        resultadoText.color = resultado.deltaDinheiro >= 0 ? Color.green : Color.red;
+        resultadoText.text = sinal + resultado.deltaDinheiro;
+        resultadoText.color = resultado.deltaDinheiro >= 0 ? Color.red : Color.green;
     }
 }
