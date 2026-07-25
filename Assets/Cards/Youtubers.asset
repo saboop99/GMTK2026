@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Youtubers
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   id: carta_003
-  titulo: YouTube Business Deal
+  titulo: YouCube Business Deal
   arteCarta: {fileID: -3678532167284416163, guid: f3aa488ca793f664cb860d1376d4d4e4, type: 3}
   descricao: Ronald and Brendan run an urban exploration channel, but the revenue
     isn't enough to make ends meet. A cigarette company wants to sponsor the channel.

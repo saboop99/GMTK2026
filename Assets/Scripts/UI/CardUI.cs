@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections;
 
 public class CardUI : MonoBehaviour
 {
@@ -14,6 +15,13 @@ public class CardUI : MonoBehaviour
     [Header("Referências - Estado Resultado")]
     public TextMeshProUGUI resultadoText;
     public Button btnContinuar;
+
+    [Header("Animação ao Continuar")]
+    public Animator animator;                    // o Animator que já tem sua animação pronta
+    public string nomeTrigger = "Continuar";      // nome do Trigger configurado no Animator
+    public float delayAntesDaAnimacao = 0.3f;     // pequeno delay antes de disparar a animação
+    public float tempoParaTrocarCarta = 0.25f;    // quanto tempo DENTRO da animação, até a carta estar "de costas"
+    public float duracaoAnimacaoRestante = 0.25f; // tempo restante da animação, depois de trocar a carta
 
     // Evento que avisa "o jogador terminou de ver o resultado, pode seguir".
     // O CardManager vai se inscrever nesse evento pra saber a hora de
@@ -31,7 +39,25 @@ public class CardUI : MonoBehaviour
     {
         btnContratar.onClick.AddListener(() => Escolher(true));
         btnNaoContratar.onClick.AddListener(() => Escolher(false));
-        btnContinuar.onClick.AddListener(() => OnContinuar?.Invoke());
+        btnContinuar.onClick.AddListener(() => StartCoroutine(ContinuarComAnimacao()));
+    }
+
+    IEnumerator ContinuarComAnimacao()
+    {
+        // Pequeno delay antes de disparar a animação, pra não parecer abrupto
+        yield return new WaitForSeconds(delayAntesDaAnimacao);
+
+        animator.SetTrigger(nomeTrigger);
+
+        // Espera só até o momento em que a carta está "de costas" (virada,
+        // não visível pro jogador) — é aí que trocamos o conteúdo dela
+        yield return new WaitForSeconds(tempoParaTrocarCarta);
+
+        OnContinuar?.Invoke(); // avisa o CardManager: sorteia e chama ExibirCarta AGORA
+
+        // Espera o restante da animação terminar (a carta girando de volta,
+        // já mostrando o conteúdo novo)
+        yield return new WaitForSeconds(duracaoAnimacaoRestante);
     }
 
     public void ExibirCarta(CardData carta)
@@ -64,10 +90,13 @@ public class CardUI : MonoBehaviour
         btnContratar.gameObject.SetActive(false);
         btnNaoContratar.gameObject.SetActive(false);
 
+        // Troca o texto da descrição pelo texto do resultado (a descrição
+        // original da carta some, e no lugar dela aparece o desfecho)
+        descricaoText.text = resultado.textoResultado;
+
         // Mostra estado resultado
         resultadoText.gameObject.SetActive(true);
         btnContinuar.gameObject.SetActive(true);
-        descricaoText.text = resultado.textoResultado;
 
         string sinal = resultado.deltaDinheiro >= 0 ? "+" : "";
         resultadoText.text = sinal + resultado.deltaDinheiro;
