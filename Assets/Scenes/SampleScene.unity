@@ -3890,6 +3890,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ee51d007a1d31fc498969807244090e5, type: 2}
   - {fileID: 11400000, guid: f402543a4329a66468afd04f609e9ea0, type: 2}
   - {fileID: 11400000, guid: 94d8d8d6560146f4b8df6d375407d6ef, type: 2}
+  - {fileID: 11400000, guid: 0aeb95bbcd8aca24b80585c46749aace, type: 2}
   cardUI: {fileID: 702498528}
   gameManager: {fileID: 226026620}
   soundManager: {fileID: 89151401}

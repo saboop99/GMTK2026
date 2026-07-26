@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 28c3273fab099e546842577175978e43
+guid: cb265dad827fb654aaf93c3cb60a410f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1418675901698990843
-    second: Unbusiness-removebg-preview_0
+      213: 4629128208902398642
+    second: Fisico_thinking_too_much_PNG_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Unbusiness-removebg-preview_0
+      name: Fisico_thinking_too_much_PNG_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 3
-        width: 250
-        height: 250
+        x: 0
+        y: 0
+        width: 1501
+        height: 1648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf2ec24573620b310800000000000000
-      internalID: 1418675901698990843
+      spriteID: 2b22e5f6497fd3040800000000000000
+      internalID: 4629128208902398642
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Unbusiness-removebg-preview_0: 1418675901698990843
+      Fisico_thinking_too_much_PNG_0: 4629128208902398642
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
