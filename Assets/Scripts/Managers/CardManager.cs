@@ -9,6 +9,7 @@ public class CardManager : MonoBehaviour
     [Header("Referências")]
     public CardUI cardUI;
     public GameManager gameManager;
+    public SoundManager soundManager;
 
     void Start()
     {
@@ -31,11 +32,15 @@ public class CardManager : MonoBehaviour
             gameManager.BaralhoAcabou();
             return;
         }
+        
+        //soundManager.TocarCard(); // Toca o som de embaralhar cartas 
 
         int index = Random.Range(0, baralho.Count);
         CardData cartaSorteada = baralho[index];
         baralho.RemoveAt(index);
 
         cardUI.ExibirCarta(cartaSorteada);
+
+        
     }
 }

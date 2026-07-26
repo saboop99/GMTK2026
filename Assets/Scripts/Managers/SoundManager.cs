@@ -9,6 +9,7 @@ public class SoundManager : MonoBehaviour
     [Header("Clipes")]
     public AudioClip somDerrota;
     public AudioClip somVitoria;
+    public AudioClip embaralhandoCartas;
 
     public void TocarSomDerrota()
     {
@@ -20,5 +21,11 @@ public class SoundManager : MonoBehaviour
     {
         if (somVitoria != null)
             sfxSource.PlayOneShot(somVitoria);
+    }
+
+    public void TocarCard()
+    {
+        if (embaralhandoCartas != null)
+            sfxSource.PlayOneShot(embaralhandoCartas);
     }
 }

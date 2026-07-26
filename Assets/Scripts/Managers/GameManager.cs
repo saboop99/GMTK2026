@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     [Header("Dinheiro")]
     public int dinheiroInicial = 1000;
     public int dinheiroAtual;
+    public int displayedScore = 1000;
+    public float countSpeed = 300f;
 
     [Header("Telas")]
     public GameObject painelCard;
@@ -26,18 +28,28 @@ public class GameManager : MonoBehaviour
         AtualizarHUD();   // ← NOVO, já mostra o valor inicial assim que o jogo começa
     }
 
+    void Update()
+    {
+        // Atualiza o score mostrado na tela, se for diferente do valor real.
+        if(displayedScore != dinheiroAtual){
+            //faz a transição suave do valor mostrado para o valor real, usando MoveTowards
+            displayedScore = Mathf.RoundToInt(Mathf.MoveTowards(displayedScore, dinheiroAtual, countSpeed * Time.deltaTime));
+            AtualizarHUD();
+        }
+    }
+
     // Chamado pelo CardManager toda vez que o jogador escolhe uma opção.
     public void AplicarResultado(Outcome resultado)
     {
         if (jogoTerminou) return; // trava, evita somar depois do jogo já ter acabado
 
         dinheiroAtual += resultado.deltaDinheiro;
-        AtualizarHUD();   // ← MUDOU (antes era só Debug.Log, agora também atualiza o texto)
 
         if (dinheiroAtual <= 0)
         {
             Vitoria();
         }
+        
     }
 
     void Vitoria()
@@ -69,6 +81,6 @@ public class GameManager : MonoBehaviour
     // NOVO método
     void AtualizarHUD()
     {
-        dinheiroText.text = "Dinheiro: " + dinheiroAtual;
+        dinheiroText.text = "$" + displayedScore.ToString();
     }
 }
