@@ -24,7 +24,7 @@ MonoBehaviour:
       him with hydrogen capsules. As the research progresses, he discovers a stable,
       safe, and affordable way to generate energy using only hydrogen. He may even
       win a Nobel Prize for his discovery, bringing you massive profits and recognition.
-    deltaDinheiro: 1000
+    deltaDinheiro: 40000
     arteResultado: {fileID: 0}
   naoContratar:
     textoResultado: You refuse to invest, forcing Robert to continue using promethium.

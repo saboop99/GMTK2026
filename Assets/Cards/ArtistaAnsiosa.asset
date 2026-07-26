@@ -23,11 +23,11 @@ MonoBehaviour:
       becomes a huge bestseller, greatly increasing the publisher's profits. However,
       the company's constant pressure for new releases causes her to burn out, forcing
       her to abandon her manga career and wasting your entire investment.
-    deltaDinheiro: -200
+    deltaDinheiro: -30000
     arteResultado: {fileID: 0}
   naoContratar:
     textoResultado: 'DuckWiggie starts small by publishing her work on a digital
       manga platform. She gradually builds a loyal fanbase whose members pay monthly
       subscriptions just to keep reading her series, generating a modest profit. '
-    deltaDinheiro: 30
+    deltaDinheiro: 3000
     arteResultado: {fileID: 0}

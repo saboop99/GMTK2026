@@ -22,11 +22,11 @@ MonoBehaviour:
       the city, preventing anyone from entering or leaving, accidentally creating
       one of the greatest animated movies of all time and making a massive profit
       in the process.
-    deltaDinheiro: 1000
+    deltaDinheiro: 30000
     arteResultado: {fileID: 0}
   naoContratar:
     textoResultado: You decide not to invest in any cleanup programs for the city,
       leaving the pollution problem to grow even worse. As a result, your reputation
       with the public takes a serious hit.
-    deltaDinheiro: -150
+    deltaDinheiro: -45000
     arteResultado: {fileID: 0}

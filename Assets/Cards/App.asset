@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6447b6f12b054cf438fa990fcf8714f7, type: 3}
+  m_Name: App
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  id: carta_006
+  titulo: A Chance to Buy an App
+  arteCarta: {fileID: 5602091570812747121, guid: 5171059098c94144f807d8d7a8f03611, type: 3}
+  descricao: You have the opportunity to acquire a popular app called Writing. Will
+    you invest?
+  contratar:
+    textoResultado: You decide to invest in Writing and acquire the popular app,
+      adding a successful new product to your company's portfolio. The app continues
+      to grow in popularity, bringing you significant profits and strengthening your
+      position in the tech industry.
+    deltaDinheiro: 20000
+    arteResultado: {fileID: 0}
+  naoContratar:
+    textoResultado: You decide not to invest in Writing. Fortunately, your own company's
+      app unexpectedly becomes a massive success, attracting millions of users and
+      generating enormous profits, significantly increasing your wealth.
+    deltaDinheiro: 40000
+    arteResultado: {fileID: 0}

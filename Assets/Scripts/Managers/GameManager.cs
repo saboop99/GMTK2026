@@ -1,16 +1,18 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     [Header("HUD")]
     public TextMeshProUGUI dinheiroText;   // ← NOVO campo, pra arrastar o DinheiroText do Canvas
+    public Button btnMenu;
 
     [Header("Dinheiro")]
-    public int dinheiroInicial = 1000;
+    public int dinheiroInicial = 100000;
     public int dinheiroAtual;
-    public int displayedScore = 1000;
-    public float countSpeed = 300f;
+    public int displayedScore = 100000;
+    public float countSpeed = 150f;
 
     [Header("Telas")]
     public GameObject painelCard;
@@ -56,7 +58,7 @@ public class GameManager : MonoBehaviour
     {
         jogoTerminou = true;
         Debug.Log("VITÓRIA! Dinheiro chegou a " + dinheiroAtual + " (zero ou negativo).");
-
+        btnMenu.gameObject.SetActive(false);
         painelCard.SetActive(false);
         painelVitória.SetActive(true);
         soundManager.TocarSomVitoria();
@@ -70,7 +72,7 @@ public class GameManager : MonoBehaviour
 
         jogoTerminou = true;
         Debug.Log("Baralho acabou! Dinheiro final: " + dinheiroAtual);
-
+        btnMenu.gameObject.SetActive(false);
         painelCard.SetActive(false);
         painelDerrota.SetActive(true);
         soundManager.TocarSomDerrota();

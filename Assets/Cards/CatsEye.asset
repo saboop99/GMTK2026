@@ -21,12 +21,12 @@ MonoBehaviour:
   contratar:
     textoResultado: Less than a week after the album's release, MC Catseye is killed
       in a shooting. The song becomes a viral anti-crime anthem, increasing album
-      sales by 300%.
-    deltaDinheiro: 300
+      sales significantly.
+    deltaDinheiro: 30000
     arteResultado: {fileID: 0}
   naoContratar:
     textoResultado: The song is removed from the album. Without it, none of the remaining
       tracks gain traction, and MC Catseye becomes known as just another promising
       artist who never made it.
-    deltaDinheiro: -50
+    deltaDinheiro: -10000
     arteResultado: {fileID: 0}
