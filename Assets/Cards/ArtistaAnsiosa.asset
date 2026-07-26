@@ -23,7 +23,7 @@ MonoBehaviour:
       becomes a huge bestseller, greatly increasing the publisher's profits. However,
       the company's constant pressure for new releases causes her to burn out, forcing
       her to abandon her manga career and wasting your entire investment.
-    deltaDinheiro: -30000
+    deltaDinheiro: -40000
     arteResultado: {fileID: 0}
   naoContratar:
     textoResultado: 'DuckWiggie starts small by publishing her work on a digital

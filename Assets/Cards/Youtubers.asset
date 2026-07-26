@@ -23,7 +23,7 @@ MonoBehaviour:
       host must smoke during every livestream. The partnership works for a while,
       until a cigarette butt causes a gas explosion, killing them both and ruining
       both companies' reputations.
-    deltaDinheiro: -25000
+    deltaDinheiro: -30000
     arteResultado: {fileID: 0}
   naoContratar:
     textoResultado: The duo signs only with the cigarette company. One host must

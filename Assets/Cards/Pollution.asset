@@ -28,5 +28,5 @@ MonoBehaviour:
     textoResultado: You decide not to invest in any cleanup programs for the city,
       leaving the pollution problem to grow even worse. As a result, your reputation
       with the public takes a serious hit.
-    deltaDinheiro: -45000
+    deltaDinheiro: -50000
     arteResultado: {fileID: 0}
